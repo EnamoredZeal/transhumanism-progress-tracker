@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Transhumanism Progress Tracker")
+st.title("🧬 Transhumanism Progress Tracker")
 st.subheader("An empirical index monitoring the convergence of biology, hardware, and consciousness.")
 
 
