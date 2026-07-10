@@ -3,18 +3,16 @@ import os
 import streamlit as st
 import pandas as pd
 
-# Page Configuration
 st.set_page_config(
     page_title="Transhumanism Progress Tracker",
     page_icon="🧬",
     layout="wide"
 )
 
-# 1. Main Title Header
 st.title("Transhumanism Progress Tracker")
 st.subheader("An empirical index monitoring the convergence of biology, hardware, and consciousness.")
 
-# 2. Prominent Epistemic Humility Banner (Friction Point for Safety)
+
 with st.expander("📖 READ FIRST: Methodology, Risk, & Epistemic Humility", expanded=True):
     st.markdown("""
     ### Welcome to the first empirical Transhumanism Tracker.
@@ -59,7 +57,7 @@ else:
     st.markdown("---")
 
     # 5. Interactive Pillar Exploration
-    st.header("📊 Convergent Field Metrics")
+    st.header("Convergent Field Metrics")
     
     pillar_selection = st.selectbox(
         "Select a pillar to view its empirical milestones:",
