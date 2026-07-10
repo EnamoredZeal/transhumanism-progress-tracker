@@ -93,7 +93,7 @@ class TranshumanistTracker:
 # Execution / Example Logging Usage
 # ==========================================
 if __name__ == "__main__":
-    # Initialize your master tracker
+    
     tracker = TranshumanistTracker()
 
     # Example 1: Logging a Cybernetic BCI Milestone
